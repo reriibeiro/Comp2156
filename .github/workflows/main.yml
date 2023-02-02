@@ -15,7 +15,7 @@ on:
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
-  # This workflow contains a single job called "build"
+  # This workflow contains a single job called. "build"
   build:
     # The type of runner that the job will run on
     runs-on: ubuntu-latest
@@ -35,12 +35,12 @@ jobs:
           echo Add other actions to build,
           echo test, and deploy your project.
       
-    # Install nodeJs
-    - name: Use Node.js
-      uses: actions/setup-node@v2
-      with:
+     # Install nodeJs
+      - name: Use Node.js
+        uses: actions/setup-node@v2
+        with:
         node-version: "16.x"
 
-    # Install project dependencies 
-    - name: Install dependencies 
-      run: npm install
+      # Install project dependencies 
+      - name: Install dependencies 
+        run: npm install
