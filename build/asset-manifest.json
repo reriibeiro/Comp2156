@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/reriibeiro/Comp2156/static/css/main.7a7d29af.css",
+    "main.js": "/reriibeiro/Comp2156/static/js/main.1212229b.js",
+    "index.html": "/reriibeiro/Comp2156/index.html",
+    "main.7a7d29af.css.map": "/reriibeiro/Comp2156/static/css/main.7a7d29af.css.map",
+    "main.1212229b.js.map": "/reriibeiro/Comp2156/static/js/main.1212229b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7a7d29af.css",
+    "static/js/main.1212229b.js"
+  ]
+}
